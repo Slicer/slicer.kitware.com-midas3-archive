@@ -8,6 +8,12 @@ This project is a snapshot of the data historically served from `http://slicer.k
 
 * Content of each user's `Public` folder have been archived in folder named accordingly.
 
+* The files organized in the source tree are content link with extension matching the hash algorithm and the
+  file content being the checksum (or hash).
+
+* [Releases](https://github.com/Slicer/slicer.kitware.com-midas3-archive/releases) associated with this project
+  are organized by hash algorithm and associated assets are named after the checksum.
+
 ## Metadata
 
 A dictionary of file paths to metadata is stored in the [midas_metadata.json](./midas_metadata.json) file.
